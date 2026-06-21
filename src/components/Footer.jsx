@@ -14,17 +14,17 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="font-bold text-lg leading-tight">Salig Ram Jaiswal</h3>
-                <p className="text-sm text-gray-400">Inter College (S.R.J.I.C.)</p>
+                <p className="text-sm text-gray-500">Inter College (S.R.J.I.C.)</p>
               </div>
             </div>
-            <p className="text-gray-400 mb-6 text-sm leading-relaxed">
+            <p className="text-gray-500 mb-6 text-sm leading-relaxed">
               Empowering young minds through quality, values-driven education, discipline, and accessibility since 2003.
             </p>
             <div className="flex gap-4">
-              <a href="mailto:info@srjic.org" className="bg-gray-800 hover:bg-yellow-400 hover:text-gray-900 p-3 rounded-lg transition">
+              <a href="mailto:info@srjic.org" className="bg-gray-800 hover:bg-yellow-400 hover:text-gray-900 p-3 rounded-lg transition" aria-label="Email us">
                 <Mail className="w-5 h-5" />
               </a>
-              <a href="tel:+919415279839" className="bg-gray-800 hover:bg-yellow-400 hover:text-gray-900 p-3 rounded-lg transition">
+              <a href="tel:+919415279839" className="bg-gray-800 hover:bg-yellow-400 hover:text-gray-900 p-3 rounded-lg transition" aria-label="Call us">
                 <Phone className="w-5 h-5" />
               </a>
             </div>
@@ -35,27 +35,27 @@ export default function Footer() {
             <h4 className="font-bold text-lg mb-6">Quick Links</h4>
             <ul className="space-y-3">
               <li>
-                <Link to="/about" className="text-gray-400 hover:text-yellow-400 transition text-sm">
+                <Link to="/about" className="text-gray-500 hover:text-yellow-400 transition text-sm">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/academics" className="text-gray-400 hover:text-yellow-400 transition text-sm">
+                <Link to="/academics" className="text-gray-500 hover:text-yellow-400 transition text-sm">
                   Academics
                 </Link>
               </li>
               <li>
-                <Link to="/facilities" className="text-gray-400 hover:text-yellow-400 transition text-sm">
+                <Link to="/facilities" className="text-gray-500 hover:text-yellow-400 transition text-sm">
                   Facilities
                 </Link>
               </li>
               <li>
-                <Link to="/admissions" className="text-gray-400 hover:text-yellow-400 transition text-sm">
+                <Link to="/admissions" className="text-gray-500 hover:text-yellow-400 transition text-sm">
                   Admissions
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-400 hover:text-yellow-400 transition text-sm">
+                <Link to="/contact" className="text-gray-500 hover:text-yellow-400 transition text-sm">
                   Contact Us
                 </Link>
               </li>
@@ -67,22 +67,22 @@ export default function Footer() {
             <h4 className="font-bold text-lg mb-6">Information</h4>
             <ul className="space-y-3">
               <li>
-                <Link to="/notices" className="text-gray-400 hover:text-yellow-400 transition text-sm">
+                <Link to="/notices" className="text-gray-500 hover:text-yellow-400 transition text-sm">
                   Notices & Circulars
                 </Link>
               </li>
               <li>
-                <Link to="/achievements" className="text-gray-400 hover:text-yellow-400 transition text-sm">
+                <Link to="/achievements" className="text-gray-500 hover:text-yellow-400 transition text-sm">
                   Achievements
                 </Link>
               </li>
               <li>
-                <Link to="/gallery" className="text-gray-400 hover:text-yellow-400 transition text-sm">
+                <Link to="/gallery" className="text-gray-500 hover:text-yellow-400 transition text-sm">
                   Gallery
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-400 hover:text-yellow-400 transition text-sm">
+                <Link to="/contact" className="text-gray-500 hover:text-yellow-400 transition text-sm">
                   School Directory
                 </Link>
               </li>
@@ -95,20 +95,20 @@ export default function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
-                <span className="text-gray-400 leading-relaxed">
+                <span className="text-gray-500 leading-relaxed">
                   Shanti Nagar, Chak Jhunsi, Prayagraj, Uttar Pradesh - 211019
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
-                <div className="text-gray-400 flex flex-col gap-1">
+                <div className="text-gray-500 flex flex-col gap-1">
                   <span>+91 99191 94781</span>
                   <span>+91 94152 79839</span>
                 </div>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-yellow-400 flex-shrink-0" />
-                <span className="text-gray-400"> srjintercollege60@gmail.com</span>
+                <span className="text-gray-500"> srjintercollege60@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -116,14 +116,14 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-400 text-sm">
+          <p className="text-gray-500 text-sm">
             © 2026 Salig Ram Jaiswal Inter College. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
-            <Link to="#" className="text-gray-400 hover:text-yellow-400 transition">
+            <Link to="#" className="text-gray-500 hover:text-yellow-400 transition">
               Privacy Policy
             </Link>
-            <Link to="#" className="text-gray-400 hover:text-yellow-400 transition">
+            <Link to="#" className="text-gray-500 hover:text-yellow-400 transition">
               Terms of Service
             </Link>
           </div>

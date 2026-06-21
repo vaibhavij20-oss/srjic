@@ -15,17 +15,19 @@ function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/academics" element={<Academics />} />
-        <Route path="/facilities" element={<Facilities />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/achievements" element={<Achievements />} />
-        <Route path="/notices" element={<Notices />} />
-        <Route path="/admissions" element={<Admissions />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/academics" element={<Academics />} />
+          <Route path="/facilities" element={<Facilities />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/notices" element={<Notices />} />
+          <Route path="/admissions" element={<Admissions />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
       <Footer />
     </>
   );

@@ -148,7 +148,7 @@ export default function Contact() {
                   <h4 className="font-semibold text-gray-900 mb-1">Office Hours</h4>
                   <p className="text-gray-600 leading-relaxed">
                     Monday - Saturday: 7:30 AM - 1:30 PM<br />
-                    <span className="text-xs text-gray-400 font-medium">(Subject to state summer/winter seasonal directives)</span>
+                    <span className="text-xs text-gray-500 font-medium">(Subject to state summer/winter seasonal directives)</span>
                   </p>
                 </div>
               </div>
@@ -224,10 +224,11 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-semibold text-gray-900 mb-2">
+                <label htmlFor="stream-select" className="block text-sm font-semibold text-gray-900 mb-2">
                   Subject / Stream Intent
                 </label>
-                <select 
+                <select
+                  id="stream-select"
                   name="stream"
                   value={formData.stream}
                   onChange={handleChange}
