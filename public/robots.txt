@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://srjic.vercel.app/sitemap.xml
