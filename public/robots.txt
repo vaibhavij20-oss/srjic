@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://srjic.vercel.app/sitemap_index.xml
+Sitemap: https://srjic.vercel.app/sitemaps.xml
