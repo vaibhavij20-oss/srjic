@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ZoomIn } from "lucide-react";
 
 // Importing your actual available assets from the directory
-import annualImg from "../assets/annual.jpeg";
-import sportsImg from "../assets/sports.jpeg";
-import scienceImg from "../assets/science.png";
-import classroomImg from "../assets/classroom.png";
-import culturalImg from "../assets/cultural.png";
-import awardImg from "../assets/award.png";
+import annualImg from "../assets/annual.webp";
+import sportsImg from "../assets/sports.webp";
+import scienceImg from "../assets/science.webp";
+import classroomImg from "../assets/classroom.webp";
+import culturalImg from "../assets/cultural.webp";
+import awardImg from "../assets/award.webp";
 
 const galleryImages = [
   { id: 1, title: "Annual Day Celebration", category: "Events", src: annualImg },

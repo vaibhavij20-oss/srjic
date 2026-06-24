@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
-import directorPhoto from "../assets/director.jpeg";
-import managerPhoto from "../assets/manager.png";
+import directorPhoto from "../assets/director.webp";
+import managerPhoto from "../assets/manager.webp";
 
 const messages = [
   {

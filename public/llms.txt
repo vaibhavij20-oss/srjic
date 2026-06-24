@@ -1,0 +1,15 @@
+# Salig Ram Jaiswal Inter College
+
+> Official information about Salig Ram Jaiswal Inter College (SRJIC), Jhunsi, Prayagraj. This website serves details about school admissions, UP Board curriculum, academic streams, student achievements, campus facilities, and notices.
+
+## Main Navigation
+
+- [Home Page](https://srjic.vercel.app/): Overview of SRJIC, quick links, and key alerts.
+- [About Us](https://srjic.vercel.app/about): Our history, vision, mission, and messages from the Manager and Principal.
+- [Academics](https://srjic.vercel.app/academics): Details about the curriculum, nursery, primary, junior high, and high school/intermediate streams (Science, Commerce, Arts).
+- [Facilities](https://srjic.vercel.app/facilities): Information on library, science laboratories, computer labs, smart classes, sports ground, and transport.
+- [Gallery](https://srjic.vercel.app/gallery): Photo gallery capturing annual day celebrations, sports, classroom activities, and cultural programs.
+- [Achievements](https://srjic.vercel.app/achievements): Academic and co-curricular achievements of students.
+- [Notices](https://srjic.vercel.app/notices): Latest circulars, examination schedules, and downloadable forms.
+- [Admissions](https://srjic.vercel.app/admissions): Registration guidelines, eligibility criteria, and fee structure.
+- [Contact](https://srjic.vercel.app/contact): Contact form, phone numbers, email address, and Google Maps location details.
